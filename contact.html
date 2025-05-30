@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, ide profil=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+      
+
+         <header class="top-bar">
+        <div class="logo">Mon portfolio
+        </div>
+         <nav class="top-nav">
+            <ul>
+             <a href="A Propos.html">A propos</a>
+            <a href="projet.html">projet</a>
+            <a href="contact.html">contact</a>
+            </ul>
+        
+        </nav>
+        <button class="btn">menu</button>
+        <div class="tout">
+            <div class="qlq">
+                <ul>
+                <a href="A Propos.html">A propos</a>
+                <a href="projet.html">projet</a>
+                <a href="contact.html">contact</a>
+                </ul>
+            </div>
+            <div class="aucun"></div>
+        </div>
+
+    </header>
+    <section id="contact"contact-section>
+        <h2>contact-moi</h2>
+        
+        <p>Vous avez une question,un projet ou bien de plus d'informations? je suis à votre écoute!
+            N'hésitez pas à me contacter via ce formulaire</p>
+            <form class="contact-form" onsubmit="afficherMessages(event)">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+            <label for="message">Message:</label>
+            <textarea name="message" rows="5" placeholder="votre message..."></textarea>
+       <button type="submit"><i class="fas fa-papper-plane"></i>Envoyer</button>
+       <p id="confirmation-message" style="display: none; color: green; font-weight: bold;">Merci pour
+        votre message!je vous répondrai très bientot.</p>
+    </form>
+    </section>
+</body>
+</html>

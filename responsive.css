@@ -1,0 +1,44 @@
+.btn{
+    display: none;
+}
+.tout{
+    display: none;
+}
+@media screen  and (max-width: 760px){
+    .top-nav{
+        display: none;
+    }
+    .btn{
+        display: flex;
+    }
+    .tout{
+        display: none;
+        flex-direction: row;
+        align-items: start;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        color: black;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .qlq{
+        background-color: white;
+        width: 40%;
+        height: 100%;
+    }
+    .qlq ul a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    .aucun{
+        background-color: transparent;
+        width: 60%;
+        height: 100%;
+    }
+    
+}

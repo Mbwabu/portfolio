@@ -1,0 +1,236 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins';
+    background-color: #f5f5f5;
+    margin: 0;
+
+
+}
+.hero{
+    height: 100vh;
+    background-color: #aea6f4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    color: #333;
+
+}
+.hero content{
+    max-width: 600px;
+}
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #321ab7;
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+    width: fit-content;
+}
+.btn:hover{
+    background-color: #23928c;
+}
+
+
+
+#menu-btn{
+    display: flex;
+
+}
+.button {
+    flex: 1;
+    margin: 15px;
+}
+.nave{
+    display: none;
+}
+.navbar-cache{
+    display: none;
+    flex-direction: row;
+    align-items: start;
+    background-color: #00c3ff;
+    position: fixed;
+    z-index: 100;
+
+}
+.navbar-content{
+    background-color: #0c08f1;
+    background: white;
+    padding: 10px 20px;
+    height: 100%;
+    width: 35%;
+    
+}
+.navbar-content label{
+     font-size: 30px;
+     font-weight: bold;
+    
+}
+.navbar-content nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+.navbar-content nav a{
+    color: black;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.navbar-content nav a:hover{
+    padding: 2px;
+    color: #23928c;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+#projets{
+    padding: 40px;
+    background-color: #101012;
+    font-family: 'poppins';
+    color: #f8fcfd;
+    text-align: center;
+    font-size: 30pxpx;
+    justify-content: center;
+}
+.projets-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.projets-card{
+    width: 300px;
+    background-color: rgb(114, 104, 227);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    color: #eaeaf1;
+
+}
+.projets-card:hover{
+    transform: translateY(-5px);
+    color: #0e0e10;
+    
+}
+.projets-card img{
+    width: 100%;
+    border-radius: 8px;
+}
+.projets-card.btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #121313;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact{
+    padding: 40px;
+    background-color: #3b383b;
+    font-family: 'poppins';
+    color: #f3f6f7;
+    text-align: center;
+    border-radius: 600px;
+    margin: 0 auto;
+    border-radius: 0 0 10px rgba(0,0,0,0.1);
+}
+#contact h2{
+    margin-bottom: 20px;
+    color: #00c3ff;
+    text-align: center;
+}
+#contact ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    color: #ebebf1;
+}
+#contact li{
+    margin-bottom: 8px;
+    
+}
+.contact-float{
+    background-color: #00aee0;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.contact-float:hover{
+    background-color: #008bb5;
+}
+.contact-form label{
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #fcfcfd;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.contact-form button{
+    background-color: #00aee0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-form button:hover{
+    background-color: #008bb5;
+}
+
+
+
+
+
+
+
+
+ 
